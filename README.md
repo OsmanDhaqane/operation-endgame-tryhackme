@@ -412,7 +412,7 @@ This confirmed the full attack path from initial enumeration to complete domain 
 
 ## Lessons Learned
 
-This room showed how several smaller weaknesses can be chained together into full domain compromise.
+This room showed how smaller weaknesses can be chained together and lead to full domain compromise.
 
 I learned how useful RID brute-force can be for finding valid users, how Kerberoasting can turn low-level access into real credentials, and how password reuse can quickly make a bad situation worse. I also got more practice using BloodHound to find permission paths that are easy to miss manually.
 
