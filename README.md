@@ -412,10 +412,10 @@ This confirmed the full attack path from initial enumeration to complete domain 
 
 ## Lessons Learned
 
-This room was a good reminder that full compromise does not always come from one big mistake. In this case, it came from several smaller weaknesses working together.
+This room showed how several smaller weaknesses can be chained together into full domain compromise.
 
-I learned how useful RID brute-force can be for finding valid users, how Kerberoasting can turn basic access into real credentials, and how password reuse can quickly make a bad situation worse. I also saw how helpful BloodHound is for finding paths between accounts and spotting permission issues that are easy to miss by hand.
+I learned how useful RID brute-force can be for finding valid users, how Kerberoasting can turn low-level access into real credentials, and how password reuse can quickly make a bad situation worse. I also got more practice using BloodHound to find permission paths that are easy to miss manually.
 
-Another important lesson was how dangerous poor credential handling can be. Finding hardcoded credentials in a script made it clear how one small oversight can help an attacker move much further than expected.
+Another important lesson was how dangerous poor credential handling can be. Finding hardcoded credentials in a script made it clear how one mistake can help an attacker move much further in the environment.
 
-Overall, this room helped me understand how Active Directory attacks often build step by step, with each weakness making the next one easier to abuse.
+Overall, this room was a good example of how Active Directory attacks often happen step by step, with each weakness making the next one easier to abuse.
